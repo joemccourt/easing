@@ -1,0 +1,32 @@
+{
+  "name": "easing",
+  "version": "0.0.1",
+  "description": "Variety of easing functions",
+  "main": "src/easing.js",
+  "scripts": {
+    "test": "jasmine-node src/easing.spec.js",
+    "lint": "./node_modules/.bin/eslint 'src/*.js'",
+    "cover": "node_modules/istanbul/lib/cli.js cover jasmine-node src/easing.spec.js -x '**/*.spec.js'"
+  },
+  "homepage": "https://github.com/joemccourt/easing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joemccourt/easing.git"
+  },
+  "author": {
+    "name": "Joe McCourt",
+    "email": "joe.j.mccourt@gmail.com",
+    "url": "http://josephmccourt.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^1.14.5"
+  }
+}
